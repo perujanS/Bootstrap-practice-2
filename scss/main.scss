@@ -1,0 +1,211 @@
+$primary:#192aea;
+$secondary:#e8ecef;
+$light:#d9e1e9;
+$dark:rgb(0, 0, 0);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap';
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+.container{
+  max-width: 1200px;
+}
+
+.small-p{
+  font-size: small;
+  color:  rgb(163, 163, 163)  
+}
+
+.btn-md{
+  background-color: rgb(71, 122, 169) ;
+  color: rgb(238, 242, 244);
+  border-radius: 5%;
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body{
+    font-size: 130%;
+  }
+
+  h1{
+    font-size: 200%;
+  }
+
+  h2{
+    font-size: 200%;
+  }
+  h4{
+    font-size: 200%;
+  }
+
+  h5{
+    font-size: 120%;
+  }
+
+  .display-1{
+    font-size: 400%;
+  }
+
+  h3{
+    font-size: 150%;
+  }
+
+  .small-p{
+    font-size: 85%; 
+  }
+
+}
+
+.nav-item.active .nav-link{
+  text-decoration: underline;
+}
+
+.first-image{
+  margin-top: -31px;
+  margin-left: -23px;
+
+}
+
+.line{
+  width: 100px;
+  margin-left: 397px;
+  border: 2px solid black;
+}
+
+.line-y{
+  width: 110px;
+  margin-left: 390px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.line-footer{
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.line-x{
+  width: 147px;
+  // margin-left: 397px;
+  border: 2px solid black;
+}
+
+.card-img-top{
+  width: 180px;
+}
+
+.full-card{
+  border-color: snow;
+  background-color: #f7f7f7;
+}
+
+.contact{
+  margin-top: -111px;
+    width: 886px;
+    margin-left: 145px;
+    // height: 200px;
+    margin-bottom: -93px;
+}
+
+.team-card{
+  margin-bottom: 180px;
+}
+
+.gallery{
+  
+  height: 350px;
+
+}
+.gallery-pics{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -146px;
+}
+
+.footer-gap{
+  margin-left: 126px;
+    margin-right: 109px;
+
+}
+
+.section{
+  background-color: #231f20;
+}
+
+.black-box{
+  height: 170px;
+}
+
+.black-box-text{
+  
+  padding-top: 35px;
+
+}
+
+.icon{
+  color: #edf1f5;
+}
+
+.head-line{
+  margin-top: -16px;
+    margin-left: 313px;
+    margin-right: 332px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .first-image{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .line{
+    margin-left: 124px;
+  }
+
+  .card-img-top{
+    width: 250px;
+  }
+
+  .gallery{
+  
+    height: 425px;
+  
+  }
+
+  .gallery-pics{
+    margin-top: -77px;
+  }
+
+  .contact{
+    margin-top: -111px;
+    width: 337px;
+    margin-left: 7px;
+    margin-bottom: -93px;
+  }
+
+  .footer-gap{
+    margin-left: 0px;
+      margin-right: 0px;
+  
+  }
+
+  .line-y {
+    margin-left: 129px;
+}
+
+.black-box {
+  height: 463px;
+}
+  
+}
+

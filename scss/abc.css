@@ -1,0 +1,81 @@
+/* $primary:#192aea;
+$secondary:#e8ecef;
+$light:#d9e1e9;
+$dark:rgb(0, 0, 0);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap';
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+.container{
+  max-width: 1200px;
+}
+
+.small-p{
+  font-size: small;
+  color:  rgb(163, 163, 163)  
+}
+
+.btn-md{
+  background-color: rgb(71, 122, 169) ;
+  color: rgb(238, 242, 244);
+  border-radius: 5%;
+  width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  body{
+    font-size: 130%;
+  }
+
+  h1{
+    font-size: 200%;
+  }
+
+  h2{
+    font-size: 200%;
+  }
+  h4{
+    font-size: 200%;
+  }
+
+  h5{
+    font-size: 120%;
+  }
+
+  .display-1{
+    font-size: 400%;
+  }
+
+  h3{
+    font-size: 150%;
+  }
+
+  .small-p{
+    font-size: 85%; 
+  }
+
+}
+
+.Logo{
+  width: 70px;
+}
+
+.navbar-nav, .nav-item{
+  padding-right: 40px;
+}
+
+.header-section{
+  background-image: url("..img");
+  padding-top: 200px;
+} */
